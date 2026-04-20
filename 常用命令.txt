@@ -1,0 +1,6 @@
+
+针对环境变量有多个配置
+PS D:\05BianCheng\QT\PWT> $env:PATH = "D:\04AnZhuang\Qt\6.9.3\mingw_64\bin;" + $env:PATH
+>> cd D:\05BianCheng\QT\PWT
+>> qmake WellTest.pro
+>> mingw32-make
